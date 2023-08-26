@@ -1,0 +1,99 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 20px;
+}
+
+/* logo and navbar section*/
+
+.header {
+    position: fixed;
+    top: 0;
+    height: 69px;
+    width: 1200px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo {
+    margin-left: 10px;
+    height: 50px;
+}
+
+
+.nav {
+    margin-left: auto;
+    margin-right: 10px;
+    
+}
+
+a {
+    margin: 10px;
+}
+
+
+/* hero content area */
+
+.content {    
+    position: relative;
+    margin-top: 70px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    z-index: -1;
+}
+
+.mission {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 1200px;
+    background-color: black;
+}
+
+#mis2, #mis4 {
+    margin: 10px;
+}
+
+/* mid content area */
+.goods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.goods-header {
+    text-align: center;
+}
+
+.month {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.month img {
+    height: 200px;
+    width: 300px;
+    margin: 5px;
+}
+
+.month p {
+    width: 300px;
+    margin: 5px;
+    text-align: center;
+}
