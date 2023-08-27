@@ -98,3 +98,52 @@ a {
     margin: 5px;
     text-align: center;
 }
+/* locations section */
+
+.locations-section {
+    text-align: center;
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.locations-background {
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.locations-background img {
+    display: block;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+}
+
+.locations-background h2 {
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+}
+
+.location-container {
+    position: absolute;
+    margin-top: 9%;
+    margin-right: auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.location {
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    background-color: black;
+    text-align: center;
+}
