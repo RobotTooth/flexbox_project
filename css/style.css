@@ -147,3 +147,17 @@ a {
     background-color: black;
     text-align: center;
 }
+
+/* footer section */
+
+.footer {
+    width: 1200px;
+}
+
+.footer-container {
+    text-align: center;
+}
+
+.footer-container p, .copyright {
+    font-size: .83em;
+}
